@@ -1,0 +1,153 @@
+.dialog,
+.dialog__overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.dialog {
+	position: fixed;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.dialog__overlay {
+	position: absolute;
+	z-index: 1;
+	background: rgba(55, 58, 71, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.dialog--open .dialog__overlay {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.dialog__content {
+	width: 70%;
+	height:700px;
+	width: 1000px;
+	
+	 background-image: url("../mode.jpg");
+	padding: 4em;
+	position: relative;
+	z-index: 5;
+	opacity: 0;
+}
+
+
+.action {
+    width:150px;
+    height: 40px;
+    cursor:pointer;
+    
+    background: black;
+    padding:6px 0 6px 0;
+    opacity: 0.9;
+	border-radius: 5px;
+    
+
+    color:white;
+    position: absolute;
+    top:90%;
+    left: 46.5%;
+	text-shadow: 0px 0px 12px #ccc; 
+}
+
+.dialog--open .dialog__content {
+	pointer-events: auto;
+}
+
+/* Content */
+.dialog h15 {
+
+	color: white;
+	font-size: 2em;
+	padding: 0 0 2em;
+	margin: 0;
+}
+
+
+.pr img {
+
+width: 100px;
+height: 100px;
+
+}
+
+.mal img {
+
+width: 100px;
+height: 140px;
+position: absolute;
+top:40%;
+}
+
+
+
+.fl img {
+width: 100px;
+height: 110px;
+position: absolute;
+top:70%;
+}
+
+
+.pr h16 {
+color: white;
+position: absolute;
+top: 90px;
+right: 160px;
+font-size: 35px;
+font-family: Arial;
+font-family: Garamond;
+text-shadow: 0px 0px 12px #ccc; 
+}
+
+
+.mal h17 {
+color: white;
+position: absolute;
+top: 320px;
+right: 300px;
+font-size: 35px;
+font-family: Arial;
+font-family: Garamond;
+text-shadow: 0px 0px 12px #ccc; 
+}
+
+
+.fl h18 {
+color: white;
+position: absolute;
+top: 470px;
+right: 465px;
+font-size: 35px;
+font-family: Arial;
+font-family: Garamond;
+text-shadow: 0px 0px 12px #ccc; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

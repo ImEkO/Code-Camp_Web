@@ -1,0 +1,71 @@
+#logo{
+    top: 35.8%;
+right: 37%;
+min-width: 120px;
+position: absolute;
+
+}
+
+body
+{
+
+	margin: 0;
+}
+.bandeau{
+	width: 100%;
+	height: 350px;
+}
+
+.bandeau2{
+	width: 100%;
+	height: 50px;
+	margin-top: -49px;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.img{
+	width: 100%;
+	height: 350px;
+}
+
+.fenetre
+{
+	width: 550px;
+	height: 450px;
+	margin-top: 100px;
+	margin-left: 7.7%;
+}
+.div1 div 
+{
+ 	display: inline-block;
+ 	width: 400px;
+}
+.div2 div 
+{
+	display: inline-block;
+ 	width: 400px;
+}
+.div1 div img
+{
+	display: inline-block;
+	min-height: 300px;
+	max-height: 300px;
+	min-width: 400px;
+	max-width: 400px;
+	width: 400px;
+	height: 300px;
+	margin-top: 75px;
+}
+.div2 div img
+{
+	min-height: 300px;
+	max-height: 300px;
+	min-width: 400px;
+	max-width: 400px;
+	width: 400px;
+	height: 300px;
+	margin-top: 75px;
+}
+
+

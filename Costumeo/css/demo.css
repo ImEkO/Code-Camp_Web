@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,600,700,400);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+button {
+    width:150px;
+    height: 40px;
+    cursor:pointer;
+    
+    border:none;
+    padding:6px 0 6px 0;
+    opacity: 0.6;
+	border-radius: 5px;
+    
+
+    color:white;
+    position: absolute;
+    top:49%;
+    left: 46.5%;
+	text-shadow: 0px 0px 12px #ccc; 
+}
+
+
+button:hover { 
+
+    text-shadow: 0px 0px 12px #ccc; 
+    font:bold 22px Garamond;
+    opacity: 0.7;
+}
+
+
+
+.button-wrap {
+	padding: 2.5em 0 0;
+	font-size: 1.25em;
+}
+
+button.trigger {
+	background: grey;
+	color: white;
+	border: none;
+}
